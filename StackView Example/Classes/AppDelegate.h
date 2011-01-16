@@ -12,4 +12,5 @@
 @interface AppDelegate : NSObject <UIApplicationDelegate> {
 	IBOutlet OHStackView* verticalLayout;
 }
+-(IBAction)buttonTapped:(UIButton*)sender;
 @end

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		095274CE12E2707100BB5534 /* OHStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 095274CD12E2707100BB5534 /* OHStackView.m */; };
-		095274E312E271D800BB5534 /* TapZoomLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 095274E212E271D800BB5534 /* TapZoomLabel.m */; };
 		0952756D12E27C1100BB5534 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0952756B12E27C1100BB5534 /* LICENSE */; };
 		0952756E12E27C1100BB5534 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 0952756C12E27C1100BB5534 /* README */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
@@ -22,8 +21,6 @@
 /* Begin PBXFileReference section */
 		095274CC12E2707100BB5534 /* OHStackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OHStackView.h; path = ../OHStackView.h; sourceTree = SOURCE_ROOT; };
 		095274CD12E2707100BB5534 /* OHStackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OHStackView.m; path = ../OHStackView.m; sourceTree = SOURCE_ROOT; };
-		095274E112E271D800BB5534 /* TapZoomLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapZoomLabel.h; sourceTree = "<group>"; };
-		095274E212E271D800BB5534 /* TapZoomLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapZoomLabel.m; sourceTree = "<group>"; };
 		0952756B12E27C1100BB5534 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = SOURCE_ROOT; };
 		0952756C12E27C1100BB5534 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = ../README; sourceTree = SOURCE_ROOT; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -57,8 +54,6 @@
 			children = (
 				28C286DF0D94DF7D0034E888 /* AppDelegate.h */,
 				28C286E00D94DF7D0034E888 /* AppDelegate.m */,
-				095274E112E271D800BB5534 /* TapZoomLabel.h */,
-				095274E212E271D800BB5534 /* TapZoomLabel.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -181,7 +176,6 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				28C286E10D94DF7D0034E888 /* AppDelegate.m in Sources */,
 				095274CE12E2707100BB5534 /* OHStackView.m in Sources */,
-				095274E312E271D800BB5534 /* TapZoomLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
