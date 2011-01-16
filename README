@@ -1,0 +1,4 @@
+This class allows you to stack its subviews, and automatically layout its subviews.
+It update the position of every of its subviews automagically as soon as you modify the size of one of its subview.
+
+See the "StackView Example" project for a basic usage example
